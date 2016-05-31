@@ -1,0 +1,18 @@
+{application, datebook,
+ [{description, "An OTP application"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, { datebook_app, []}},
+  {applications,
+   [kernel,
+    stdlib,
+    uuid_erl,
+    cowboy
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {maintainers, []},
+  {licenses, []},
+  {links, []}
+ ]}.
